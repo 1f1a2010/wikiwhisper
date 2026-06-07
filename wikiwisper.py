@@ -23,8 +23,9 @@ entry = tk.Entry(root, width=40, font=('Arial', 14))
 entry.grid(row=1, column=0, padx=10, pady=10)
 
 toggle_theme_btn = tk.Button(root, text="🌙 Toggle Dark Mode", font=('Arial', 12), command=lambda:toggle_theme())
-toggle_theme_btn.grid(row=6, column=1, padx=10, pady=10,columnspan=4, sticky='e')
+toggle_theme_btn.grid(row=6, column=1, padx=10, pady=10,columnspan=5, sticky='e')
 # Search button
+
 btn_1 = tk.Button(root, text="Search", width=10, height=1, command=lambda: get_input())
 btn_1.grid(row=1, column=1, padx=5)
 
